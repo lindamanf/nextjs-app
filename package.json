@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-app",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.24.0",
+    "classnames": "^2.3.1",
+    "next": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.21.2",
+    "sass": "^1.44.0",
+    "swr": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "@types/react": "^17.0.37",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "eslint-config-next": "12.0.7",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1",
+    "typescript": "^4.5.2"
+  }
+}

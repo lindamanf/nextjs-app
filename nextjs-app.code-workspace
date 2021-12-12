@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll": true
+		},
+		"stylelint.autoFixOnSave": true,
+		"editor.renderWhitespace": "all",
+		"files.insertFinalNewline": true,
+		"editor.tabSize": 2,
+		"scss.scannerExclude": [
+			"**/.git",
+			"**/node_modules",
+		],
+	},
+	"extensions": {
+		"recommendations": [
+			"mrmlnc.vscode-scss",
+			"dbaeumer.vscode-eslint",
+			"hex-ci.stylelint-plus"
+		],
+	}
+}
